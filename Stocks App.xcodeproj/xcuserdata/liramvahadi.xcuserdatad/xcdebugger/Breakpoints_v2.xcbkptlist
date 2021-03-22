@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5D0DB014-3181-4390-8F9B-12162DD54BE7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "818EF80D-89C5-4063-A509-92CA92718013"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/SwiftUI Component/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "818EF80D-89C5-4063-A509-92CA92718013 - f0e9ac1e1833a496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt; in Stocks_App.Login.body.getter : some"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/SwiftUI%20Component/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1010">
+               </Location>
+               <Location
+                  uuid = "818EF80D-89C5-4063-A509-92CA92718013 - ace35afec332fe0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.SecureField&lt;SwiftUI.Text&gt;, SwiftUI.Button&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt; in Stocks_App.Login.body.getter : some"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/SwiftUI%20Component/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "369">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8788536-0707-4A49-9A90-E16BC77BDE8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76F08FC7-F3C5-400B-BC83-8C0E8182DECD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Login Screen /ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F62CCAE-1DA3-42E2-B047-E9CE36BB61D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Login Screen /ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9368D27B-6DD7-407A-BE81-F0E6FCE81D6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Login Screen /ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9368D27B-6DD7-407A-BE81-F0E6FCE81D6F - 8a69a0f912ea278e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.animation(Swift.Optional&lt;SwiftUI.Animation&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt; in Stocks_App.Login.body.getter : some"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Login%20Screen%20/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "4365">
+               </Location>
+               <Location
+                  uuid = "9368D27B-6DD7-407A-BE81-F0E6FCE81D6F - 56963d9803132139"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.animation(Swift.Optional&lt;SwiftUI.Animation&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0)&gt; in Stocks_App.Login.body.getter : some"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Login%20Screen%20/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45911BBC-235A-412D-8038-C04704E49437"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Login Screen /ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8476825B-AE4C-4C50-AC56-384DAB4BE67C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "loadCoinsSymbol()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53AB1C6E-1C15-46CC-A320-F36C0245BF60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "createModel(currency:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0E54698-3000-450B-8268-E3F3E8A38058"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/View/UserStocksViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "UserStocksViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C0E54698-3000-450B-8268-E3F3E8A38058 - 51469cdb1432bf4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stocks_App.UserStocksViewController.__deallocating_deinit"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Modules/Main%20User%20Details/View/UserStocksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C0E54698-3000-450B-8268-E3F3E8A38058 - 400596b9e7327c68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stocks_App.UserStocksViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Stocks_App.UserStocksViewController"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Modules/Main%20User%20Details/View/UserStocksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C0E54698-3000-450B-8268-E3F3E8A38058 - f05f4c9a4555c8b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stocks_App.UserStocksViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Stocks_App.UserStocksViewController"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Modules/Main%20User%20Details/View/UserStocksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "351">
+               </Location>
+               <Location
+                  uuid = "C0E54698-3000-450B-8268-E3F3E8A38058 - 97534ccf450749d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stocks_App.UserStocksViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Stocks_App.UserStocksViewController&gt;"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Modules/Main%20User%20Details/View/UserStocksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C0E54698-3000-450B-8268-E3F3E8A38058 - d78c7709971ef3f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stocks_App.UserStocksViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Stocks_App.UserStocksViewController&gt;"
+                  moduleName = "Stocks App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liramvahadi/Desktop/IOS%20%20Developer/Final%20Project/Stocks%20App/Stocks%20App/Modules/Main%20User%20Details/View/UserStocksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AD05E49-EE5E-4D5C-A06F-10A79AD8F5FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/View/UserStocksViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "UserStocksViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0709F85-7C02-42C2-BFF5-9DA5B922F845"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/View/UserStocksViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0686F5B8-F132-4F4D-93A8-E7FB06955E15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Modules/Main User Details/Presenter/PresenterUserStocks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "didUserSearch(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0043CAD2-5957-470A-A7BC-729E8D6E9B85"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stocks App/Models/Stock/Stock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "stockModel"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
