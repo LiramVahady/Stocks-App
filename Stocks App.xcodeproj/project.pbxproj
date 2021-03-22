@@ -3,18 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87EF2A5450684301095AC599 /* Pods_Stocks_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF0A455BA9380F6ABCE74F9 /* Pods_Stocks_App.framework */; };
+		DC4A91AC2602AD3500202E4E /* TradeStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1373E25DBEEE600D9137E /* TradeStockViewController.swift */; };
+		DC4A91C526074E6300202E4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51AC2225F778DF004F7891 /* LoginViewController.swift */; };
+		DC4EF19925E1A7490063C7B5 /* StockDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EF19825E1A7490063C7B5 /* StockDetailsTableViewCell.swift */; };
+		DC4EF1C425E2C9090063C7B5 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EF1C325E2C9090063C7B5 /* RealmService.swift */; };
+		DC4EF1D125E2D3560063C7B5 /* UserStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EF1C825E2D2A20063C7B5 /* UserStocks.swift */; };
+		DC5082A425ECE3FF006BD19C /* Extenssion + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082A325ECE3FF006BD19C /* Extenssion + UILabel.swift */; };
+		DC50830A25EDA108006BD19C /* UserStocksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FC325D4B732003773D1 /* UserStocksTableViewCell.swift */; };
+		DC50832525EE5AA7006BD19C /* UserStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1D9B25C76CC90027A4D0 /* UserStocksViewController.swift */; };
+		DC51AB6925F427FE004F7891 /* UserDefaultsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51AB6825F427FE004F7891 /* UserDefaultsManagement.swift */; };
+		DC51AC2B25F7CAA2004F7891 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51AC2A25F7CAA2004F7891 /* RegisterService.swift */; };
+		DC51AC3F25FB520F004F7891 /* StockListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1372C25DBC53E00D9137E /* StockListPresenter.swift */; };
+		DC51AC4625FB5FD5004F7891 /* StocksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FE325D677AF003773D1 /* StocksListViewController.swift */; };
+		DC73970125CF6F50002F031B /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73970025CF6F50002F031B /* CurrencyModel.swift */; };
+		DC73971325CF7126002F031B /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73971225CF7126002F031B /* CurrencyViewModel.swift */; };
+		DC73971B25CF75A6002F031B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73971A25CF75A6002F031B /* ApiService.swift */; };
+		DC73974025D12D1F002F031B /* CurrencyCoins.json in Resources */ = {isa = PBXBuildFile; fileRef = DC73973F25D12D1F002F031B /* CurrencyCoins.json */; };
+		DC73974525D33F23002F031B /* Extension + Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73974425D33F23002F031B /* Extension + Double.swift */; };
+		DC73975325D3443A002F031B /* Extension + ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73975225D3443A002F031B /* Extension + ActivityIndicator.swift */; };
+		DCB1370625DAEB9000D9137E /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1370525DAEB9000D9137E /* HeaderSectionView.swift */; };
+		DCB1373A25DBE32900D9137E /* EmptyViewDuringLoadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1373925DBE32900D9137E /* EmptyViewDuringLoadingData.swift */; };
+		DCB1374525DBEF7600D9137E /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1374425DBEF7600D9137E /* StockViewModel.swift */; };
+		DCB1378B25DF2CFC00D9137E /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1378A25DF2CFC00D9137E /* Section.swift */; };
+		DCC3477E2608A5480073D53F /* CurrentBalnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3476F2608A3850073D53F /* CurrentBalnce.swift */; };
+		DCC347822608A6320073D53F /* UserStocksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73970925CF70E8002F031B /* UserStocksPresenter.swift */; };
 		DCDF1D9825C76CC90027A4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1D9725C76CC90027A4D0 /* AppDelegate.swift */; };
 		DCDF1D9A25C76CC90027A4D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1D9925C76CC90027A4D0 /* SceneDelegate.swift */; };
-		DCDF1D9C25C76CC90027A4D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1D9B25C76CC90027A4D0 /* ViewController.swift */; };
 		DCDF1D9F25C76CC90027A4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF1D9D25C76CC90027A4D0 /* Main.storyboard */; };
 		DCDF1DA125C76CCC0027A4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDF1DA025C76CCC0027A4D0 /* Assets.xcassets */; };
 		DCDF1DA425C76CCC0027A4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF1DA225C76CCC0027A4D0 /* LaunchScreen.storyboard */; };
 		DCDF1DAF25C76CCC0027A4D0 /* Stocks_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1DAE25C76CCC0027A4D0 /* Stocks_AppTests.swift */; };
 		DCDF1DBA25C76CCC0027A4D0 /* Stocks_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF1DB925C76CCC0027A4D0 /* Stocks_AppUITests.swift */; };
+		DCE0BEE025CB155D004F37B5 /* UserAuthenticationManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0BEDF25CB155D004F37B5 /* UserAuthenticationManagment.swift */; };
+		DCE0BF0D25CD38BC004F37B5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0BF0C25CD38BC004F37B5 /* ApiClient.swift */; };
+		DCE0BF1525CD3A09004F37B5 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0BF1425CD3A09004F37B5 /* InternetConnection.swift */; };
+		DCE0BF1A25CD4821004F37B5 /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0BF1925CD4821004F37B5 /* ServerRequest.swift */; };
+		DCE0BF2025CD8067004F37B5 /* ConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0BF1F25CD8067004F37B5 /* ConstantValues.swift */; };
+		DCF55F9325D43065003773D1 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55F9225D43065003773D1 /* Extension + UIViewController.swift */; };
+		DCF55FB825D48FDF003773D1 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FB725D48FDF003773D1 /* CurrencyTableViewCell.swift */; };
+		DCF55FD325D4C0B4003773D1 /* stocks_names.list.json in Resources */ = {isa = PBXBuildFile; fileRef = DCF55FD225D4C0B4003773D1 /* stocks_names.list.json */; };
+		DCF55FDA25D6662C003773D1 /* YahooStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FD925D6662C003773D1 /* YahooStock.swift */; };
+		DCF55FED25D6A1E1003773D1 /* StocksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FEC25D6A1E1003773D1 /* StocksTableViewCell.swift */; };
+		DCF55FFA25D9BD80003773D1 /* TopStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55FF925D9BD80003773D1 /* TopStocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +70,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C969EAF523166003407E31F9 /* Pods-Stocks App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocks App.debug.xcconfig"; path = "Target Support Files/Pods-Stocks App/Pods-Stocks App.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4EF19825E1A7490063C7B5 /* StockDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		DC4EF1C325E2C9090063C7B5 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		DC4EF1C825E2D2A20063C7B5 /* UserStocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStocks.swift; sourceTree = "<group>"; };
+		DC5082A325ECE3FF006BD19C /* Extenssion + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenssion + UILabel.swift"; sourceTree = "<group>"; };
+		DC51AB6825F427FE004F7891 /* UserDefaultsManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManagement.swift; sourceTree = "<group>"; };
+		DC51AC2225F778DF004F7891 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC51AC2A25F7CAA2004F7891 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		DC73970025CF6F50002F031B /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		DC73970925CF70E8002F031B /* UserStocksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStocksPresenter.swift; sourceTree = "<group>"; };
+		DC73971225CF7126002F031B /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		DC73971A25CF75A6002F031B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DC73973F25D12D1F002F031B /* CurrencyCoins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrencyCoins.json; sourceTree = "<group>"; };
+		DC73974425D33F23002F031B /* Extension + Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Double.swift"; sourceTree = "<group>"; };
+		DC73975225D3443A002F031B /* Extension + ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + ActivityIndicator.swift"; sourceTree = "<group>"; };
+		DCB1370525DAEB9000D9137E /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
+		DCB1372C25DBC53E00D9137E /* StockListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListPresenter.swift; sourceTree = "<group>"; };
+		DCB1373925DBE32900D9137E /* EmptyViewDuringLoadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewDuringLoadingData.swift; sourceTree = "<group>"; };
+		DCB1373E25DBEEE600D9137E /* TradeStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeStockViewController.swift; sourceTree = "<group>"; };
+		DCB1374425DBEF7600D9137E /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		DCB1378A25DF2CFC00D9137E /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		DCC3476F2608A3850073D53F /* CurrentBalnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBalnce.swift; sourceTree = "<group>"; };
 		DCDF1D9425C76CC90027A4D0 /* Stocks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDF1D9725C76CC90027A4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCDF1D9925C76CC90027A4D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCDF1D9B25C76CC90027A4D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCDF1D9B25C76CC90027A4D0 /* UserStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStocksViewController.swift; sourceTree = "<group>"; };
 		DCDF1D9E25C76CC90027A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCDF1DA025C76CCC0027A4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCDF1DA325C76CCC0027A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +106,21 @@
 		DCDF1DB525C76CCC0027A4D0 /* Stocks AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDF1DB925C76CCC0027A4D0 /* Stocks_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_AppUITests.swift; sourceTree = "<group>"; };
 		DCDF1DBB25C76CCC0027A4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE0BEDF25CB155D004F37B5 /* UserAuthenticationManagment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthenticationManagment.swift; sourceTree = "<group>"; };
+		DCE0BF0C25CD38BC004F37B5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		DCE0BF1425CD3A09004F37B5 /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		DCE0BF1925CD4821004F37B5 /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		DCE0BF1F25CD8067004F37B5 /* ConstantValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValues.swift; sourceTree = "<group>"; };
+		DCF55F9225D43065003773D1 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		DCF55FB725D48FDF003773D1 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		DCF55FC325D4B732003773D1 /* UserStocksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStocksTableViewCell.swift; sourceTree = "<group>"; };
+		DCF55FD225D4C0B4003773D1 /* stocks_names.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stocks_names.list.json; sourceTree = "<group>"; };
+		DCF55FD925D6662C003773D1 /* YahooStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooStock.swift; sourceTree = "<group>"; };
+		DCF55FE325D677AF003773D1 /* StocksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksListViewController.swift; sourceTree = "<group>"; };
+		DCF55FEC25D6A1E1003773D1 /* StocksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTableViewCell.swift; sourceTree = "<group>"; };
+		DCF55FF925D9BD80003773D1 /* TopStocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStocks.swift; sourceTree = "<group>"; };
+		ECF0A455BA9380F6ABCE74F9 /* Pods_Stocks_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stocks_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5CC9200C35901168682539 /* Pods-Stocks App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocks App.release.xcconfig"; path = "Target Support Files/Pods-Stocks App/Pods-Stocks App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EF2A5450684301095AC599 /* Pods_Stocks_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +149,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F55A459DAE8A297C71399ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF0A455BA9380F6ABCE74F9 /* Pods_Stocks_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7AFDF05771A8753671CFAFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C969EAF523166003407E31F9 /* Pods-Stocks App.debug.xcconfig */,
+				FE5CC9200C35901168682539 /* Pods-Stocks App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC0118CD25CF1CCC00570E49 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FB725D48FDF003773D1 /* CurrencyTableViewCell.swift */,
+				DCF55FC325D4B732003773D1 /* UserStocksTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DC4EF1C225E2C8EC0063C7B5 /* RealmDB Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC4EF1C325E2C9090063C7B5 /* RealmService.swift */,
+				DC4EF1CD25E2D2AD0063C7B5 /* Model */,
+			);
+			path = "RealmDB Service";
+			sourceTree = "<group>";
+		};
+		DC4EF1CD25E2D2AD0063C7B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC4EF1C825E2D2A20063C7B5 /* UserStocks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC51AC3825FB449B004F7891 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC4EF19825E1A7490063C7B5 /* StockDetailsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DC7396FE25CF6F2A002F031B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FD825D66617003773D1 /* Stock */,
+				DC7396FF25CF6F34002F031B /* Currency Model */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC7396FF25CF6F34002F031B /* Currency Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC73970025CF6F50002F031B /* CurrencyModel.swift */,
+			);
+			path = "Currency Model";
+			sourceTree = "<group>";
+		};
+		DC73970825CF70CD002F031B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC73970925CF70E8002F031B /* UserStocksPresenter.swift */,
+				DCC3476F2608A3850073D53F /* CurrentBalnce.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC73971125CF710C002F031B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC73971225CF7126002F031B /* CurrencyViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		DCB1370425DAEB7200D9137E /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1370525DAEB9000D9137E /* HeaderSectionView.swift */,
+				DCB1378A25DF2CFC00D9137E /* Section.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		DCB1373125DBC54F00D9137E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1372C25DBC53E00D9137E /* StockListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DCB1374325DBEF5800D9137E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1374425DBEF7600D9137E /* StockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DCB1379825DFA0C900D9137E /* Trade Stock */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1373E25DBEEE600D9137E /* TradeStockViewController.swift */,
+				DC51AC3825FB449B004F7891 /* Cell */,
+			);
+			path = "Trade Stock";
+			sourceTree = "<group>";
+		};
 		DCDF1D8B25C76CC90027A4D0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +275,8 @@
 				DCDF1DAD25C76CCC0027A4D0 /* Stocks AppTests */,
 				DCDF1DB825C76CCC0027A4D0 /* Stocks AppUITests */,
 				DCDF1D9525C76CC90027A4D0 /* Products */,
+				C7AFDF05771A8753671CFAFD /* Pods */,
+				6F55A459DAE8A297C71399ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +293,18 @@
 		DCDF1D9625C76CC90027A4D0 /* Stocks App */ = {
 			isa = PBXGroup;
 			children = (
-				DCDF1D9725C76CC90027A4D0 /* AppDelegate.swift */,
-				DCDF1D9925C76CC90027A4D0 /* SceneDelegate.swift */,
-				DCDF1D9B25C76CC90027A4D0 /* ViewController.swift */,
-				DCDF1D9D25C76CC90027A4D0 /* Main.storyboard */,
-				DCDF1DA025C76CCC0027A4D0 /* Assets.xcassets */,
-				DCDF1DA225C76CCC0027A4D0 /* LaunchScreen.storyboard */,
+				DC4EF1C225E2C8EC0063C7B5 /* RealmDB Service */,
+				DCE0BF1E25CD803D004F37B5 /* Helpers */,
+				DC7396FE25CF6F2A002F031B /* Models */,
+				DCE0BF0B25CD3890004F37B5 /* Api Service */,
+				DCDF1DF825C8A6A30027A4D0 /* Extenssions */,
+				DCE0BEF025CC2495004F37B5 /* Modules */,
+				DCF55FD125D4C04B003773D1 /* Json Files */,
+				DCDF1DCD25C76CDD0027A4D0 /* Supporting Files */,
 				DCDF1DA525C76CCC0027A4D0 /* Info.plist */,
+				DCDF1D9925C76CC90027A4D0 /* SceneDelegate.swift */,
+				DCDF1D9725C76CC90027A4D0 /* AppDelegate.swift */,
+				DCDF1D9D25C76CC90027A4D0 /* Main.storyboard */,
 			);
 			path = "Stocks App";
 			sourceTree = "<group>";
@@ -128,6 +327,133 @@
 			path = "Stocks AppUITests";
 			sourceTree = "<group>";
 		};
+		DCDF1DCD25C76CDD0027A4D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF1DA025C76CCC0027A4D0 /* Assets.xcassets */,
+				DCDF1DA225C76CCC0027A4D0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCDF1DD125C76D630027A4D0 /* Login Screen  */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0BEDF25CB155D004F37B5 /* UserAuthenticationManagment.swift */,
+				DC51AC2225F778DF004F7891 /* LoginViewController.swift */,
+				DC51AC2A25F7CAA2004F7891 /* RegisterService.swift */,
+			);
+			path = "Login Screen ";
+			sourceTree = "<group>";
+		};
+		DCDF1DF825C8A6A30027A4D0 /* Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+				DC73974425D33F23002F031B /* Extension + Double.swift */,
+				DC73975225D3443A002F031B /* Extension + ActivityIndicator.swift */,
+				DCF55F9225D43065003773D1 /* Extension + UIViewController.swift */,
+				DC5082A325ECE3FF006BD19C /* Extenssion + UILabel.swift */,
+			);
+			path = Extenssions;
+			sourceTree = "<group>";
+		};
+		DCE0BEF025CC2495004F37B5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF1DD125C76D630027A4D0 /* Login Screen  */,
+				DCE0BEF125CC24A9004F37B5 /* User Stocks */,
+				DCF55FDE25D67668003773D1 /* Stocks List */,
+				DCB1379825DFA0C900D9137E /* Trade Stock */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DCE0BEF125CC24A9004F37B5 /* User Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				DC73970825CF70CD002F031B /* Presenter */,
+				DCE0BEF225CC24C9004F37B5 /* Views */,
+			);
+			path = "User Stocks";
+			sourceTree = "<group>";
+		};
+		DCE0BEF225CC24C9004F37B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF1D9B25C76CC90027A4D0 /* UserStocksViewController.swift */,
+				DC73971125CF710C002F031B /* View Model */,
+				DC0118CD25CF1CCC00570E49 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCE0BF0B25CD3890004F37B5 /* Api Service */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0BF0C25CD38BC004F37B5 /* ApiClient.swift */,
+				DCE0BF1425CD3A09004F37B5 /* InternetConnection.swift */,
+				DCE0BF1925CD4821004F37B5 /* ServerRequest.swift */,
+				DC73971A25CF75A6002F031B /* ApiService.swift */,
+			);
+			path = "Api Service";
+			sourceTree = "<group>";
+		};
+		DCE0BF1E25CD803D004F37B5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0BF1F25CD8067004F37B5 /* ConstantValues.swift */,
+				DCB1373925DBE32900D9137E /* EmptyViewDuringLoadingData.swift */,
+				DC51AB6825F427FE004F7891 /* UserDefaultsManagement.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DCF55FD125D4C04B003773D1 /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FD225D4C0B4003773D1 /* stocks_names.list.json */,
+				DC73973F25D12D1F002F031B /* CurrencyCoins.json */,
+			);
+			path = "Json Files";
+			sourceTree = "<group>";
+		};
+		DCF55FD825D66617003773D1 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FD925D6662C003773D1 /* YahooStock.swift */,
+				DCF55FF925D9BD80003773D1 /* TopStocks.swift */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		DCF55FDE25D67668003773D1 /* Stocks List */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1373125DBC54F00D9137E /* Presenter */,
+				DCF55FE225D6779A003773D1 /* View */,
+			);
+			path = "Stocks List";
+			sourceTree = "<group>";
+		};
+		DCF55FE225D6779A003773D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FE325D677AF003773D1 /* StocksListViewController.swift */,
+				DCB1374325DBEF5800D9137E /* ViewModel */,
+				DCB1370425DAEB7200D9137E /* Section */,
+				DCF55FEB25D6A177003773D1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCF55FEB25D6A177003773D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCF55FEC25D6A1E1003773D1 /* StocksTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +461,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCDF1DBE25C76CCC0027A4D0 /* Build configuration list for PBXNativeTarget "Stocks App" */;
 			buildPhases = (
+				0DBAB323B9AB397773FEE0AB /* [CP] Check Pods Manifest.lock */,
 				DCDF1D9025C76CC90027A4D0 /* Sources */,
 				DCDF1D9125C76CC90027A4D0 /* Frameworks */,
 				DCDF1D9225C76CC90027A4D0 /* Resources */,
+				484807CC092CED23E65D3AE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +561,9 @@
 			files = (
 				DCDF1DA425C76CCC0027A4D0 /* LaunchScreen.storyboard in Resources */,
 				DCDF1DA125C76CCC0027A4D0 /* Assets.xcassets in Resources */,
+				DCF55FD325D4C0B4003773D1 /* stocks_names.list.json in Resources */,
 				DCDF1D9F25C76CC90027A4D0 /* Main.storyboard in Resources */,
+				DC73974025D12D1F002F031B /* CurrencyCoins.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +583,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DBAB323B9AB397773FEE0AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stocks App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484807CC092CED23E65D3AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stocks App/Pods-Stocks App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stocks App/Pods-Stocks App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stocks App/Pods-Stocks App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCDF1D9025C76CC90027A4D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDF1D9C25C76CC90027A4D0 /* ViewController.swift in Sources */,
+				DCF55FFA25D9BD80003773D1 /* TopStocks.swift in Sources */,
+				DC51AC2B25F7CAA2004F7891 /* RegisterService.swift in Sources */,
+				DC51AC4625FB5FD5004F7891 /* StocksListViewController.swift in Sources */,
+				DC51AC3F25FB520F004F7891 /* StockListPresenter.swift in Sources */,
+				DCE0BEE025CB155D004F37B5 /* UserAuthenticationManagment.swift in Sources */,
+				DCE0BF1A25CD4821004F37B5 /* ServerRequest.swift in Sources */,
+				DC73975325D3443A002F031B /* Extension + ActivityIndicator.swift in Sources */,
 				DCDF1D9825C76CC90027A4D0 /* AppDelegate.swift in Sources */,
+				DCE0BF1525CD3A09004F37B5 /* InternetConnection.swift in Sources */,
+				DCF55FB825D48FDF003773D1 /* CurrencyTableViewCell.swift in Sources */,
+				DC50830A25EDA108006BD19C /* UserStocksTableViewCell.swift in Sources */,
+				DC73971325CF7126002F031B /* CurrencyViewModel.swift in Sources */,
+				DC4EF1D125E2D3560063C7B5 /* UserStocks.swift in Sources */,
+				DC4EF1C425E2C9090063C7B5 /* RealmService.swift in Sources */,
+				DCB1378B25DF2CFC00D9137E /* Section.swift in Sources */,
+				DC4EF19925E1A7490063C7B5 /* StockDetailsTableViewCell.swift in Sources */,
+				DCE0BF0D25CD38BC004F37B5 /* ApiClient.swift in Sources */,
+				DCF55F9325D43065003773D1 /* Extension + UIViewController.swift in Sources */,
+				DC73970125CF6F50002F031B /* CurrencyModel.swift in Sources */,
+				DCB1373A25DBE32900D9137E /* EmptyViewDuringLoadingData.swift in Sources */,
+				DC51AB6925F427FE004F7891 /* UserDefaultsManagement.swift in Sources */,
+				DCF55FED25D6A1E1003773D1 /* StocksTableViewCell.swift in Sources */,
+				DC50832525EE5AA7006BD19C /* UserStocksViewController.swift in Sources */,
+				DC5082A425ECE3FF006BD19C /* Extenssion + UILabel.swift in Sources */,
+				DCE0BF2025CD8067004F37B5 /* ConstantValues.swift in Sources */,
+				DCB1374525DBEF7600D9137E /* StockViewModel.swift in Sources */,
+				DC73971B25CF75A6002F031B /* ApiService.swift in Sources */,
+				DC4A91C526074E6300202E4E /* LoginViewController.swift in Sources */,
+				DC73974525D33F23002F031B /* Extension + Double.swift in Sources */,
 				DCDF1D9A25C76CC90027A4D0 /* SceneDelegate.swift in Sources */,
+				DCF55FDA25D6662C003773D1 /* YahooStock.swift in Sources */,
+				DC4A91AC2602AD3500202E4E /* TradeStockViewController.swift in Sources */,
+				DCC3477E2608A5480073D53F /* CurrentBalnce.swift in Sources */,
+				DCC347822608A6320073D53F /* UserStocksPresenter.swift in Sources */,
+				DCB1370625DAEB9000D9137E /* HeaderSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +837,7 @@
 		};
 		DCDF1DBF25C76CCC0027A4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C969EAF523166003407E31F9 /* Pods-Stocks App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +851,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "education.Stocks-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DCDF1DC025C76CCC0027A4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5CC9200C35901168682539 /* Pods-Stocks App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +871,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "education.Stocks-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

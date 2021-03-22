@@ -1,0 +1,253 @@
+{
+  "stocks":[{
+  "Symbol": "AAPL",
+  "Company": "Apple",
+  "industry": "Consumer Electronics"
+},
+{
+  "Symbol": "MSFT",
+  "Company": "Microsoft",
+  "industry":"Software—Infrastructure"
+},
+{
+  "Symbol": "AMZN",
+  "Company": "Amazon",
+  "industry":"Internet Retail"
+},
+{
+  "Symbol": "GOOGL",
+  "Company": "Alphabet",
+  "industry": "Internet Content & Information"
+},
+{
+  "Symbol": "FB",
+  "Company": "Facebook",
+  "industry": "Internet Content & Information"
+},
+{
+  "Symbol": "BABA",
+  "Company": "Alibaba",
+  "industry": "Internet Retail"
+},
+{
+  "Symbol": "BRK.A",
+  "Company": "Berkshire Hathaway",
+  "industry": "Oil & Gas E&P"
+},
+{
+  "Symbol": "V",
+  "Company": "Visa",
+  "industry": "Credit Services"
+},
+{
+  "Symbol": "TSM",
+  "Company": "Taiwan Semiconductor",
+  "industry": "Semiconductors"
+},
+{
+  "Symbol": "JNJ",
+  "Company": "Johnson & Johnson",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "WMT",
+  "Company": "Walmart",
+  "industry": "Discount Stores"
+},
+{
+  "Symbol": "PG",
+  "Company": "Procter & Gamble",
+  "industry": "Household & Personal Products"
+},
+{
+  "Symbol": "MA",
+  "Company": "Mastercard",
+  "industry": "Credit Services"
+},
+{
+  "Symbol": "JPM",
+  "Company": "JPMorgan Chase & Co.",
+  "industry":"Banks—Diversified"
+},
+{
+  "Symbol": "UNH",
+  "Company": "UnitedHealth",
+  "industry": "Healthcare Plans"
+},
+{
+  "Symbol": "HD",
+  "Company": "Home Depot",
+  "industry": "Home Improvement Retail"
+},
+{
+  "Symbol": "NVDA",
+  "Company": "NVIDIA",
+  "industry": "Semiconductors"
+},
+{
+  "Symbol": "TSLA",
+  "Company": "Tesla",
+  "industry": "Auto Manufacturers"
+},
+{
+  "Symbol": "VZ",
+  "Company": "Verizon",
+  "industry": "Telecom Services"
+},
+{
+  "Symbol": "DIS",
+  "Company": "Disney",
+  "industry": "Entertainment"
+},
+{
+  "Symbol": "PYPL",
+  "Company": "PayPal",
+  "industry": "Credit Services"
+},
+{
+  "Symbol": "BAC",
+  "Company": "Bank of America",
+  "industry": "Banks—Diversified"
+},
+{
+  "Symbol": "NFLX",
+  "Company": "Netflix",
+  "industry": "Entertainment"
+},
+{
+  "Symbol": "ADBE",
+  "Company": "Adobe",
+  "industry": "Software—Infrastructure"
+},
+{
+  "Symbol": "T",
+  "Company": "AT&T",
+  "industry": "Telecom Services"
+},
+{
+  "Symbol": "PFE",
+  "Company": "Pfizer",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "INTC",
+  "Company": "Intel",
+  "industry": "Semiconductors"
+},
+{
+  "Symbol": "KO",
+  "Company": "Coca-Cola",
+  "industry": "Beverages—Non-Alcoholic"
+},
+{
+  "Symbol": "MRK",
+  "Company": "Merck",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "CSCO",
+  "Company": "Cisco Systems",
+  "industry": "Communication Equipment"
+},
+{
+  "Symbol": "CMCSA",
+  "Company": "Comcast",
+  "industry": "Entertainment"
+},
+{
+  "Symbol": "SAP",
+  "Company": "SAP SE",
+  "industry": "Software—Application"
+},
+{
+  "Symbol": "NVS",
+  "Company": "Novartis AG",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "PEP",
+  "Company": "Pepsi",
+  "industry": "Beverages—Non-Alcoholic"
+},
+{
+  "Symbol": "XOM",
+  "Company": "ExxonMobil",
+  "industry": "Oil & Gas Integrated"
+},
+{
+  "Symbol": "TM",
+  "Company": "Toyota",
+  "industry": "Auto Manufacturers"
+},
+{
+  "Symbol": "CRM",
+  "Company": "Salesforce",
+  "industry": "Software—Application"
+},
+{
+  "Symbol": "ABT",
+  "Company": "Abbott Laboratories",
+  "industry": "Medical Devices"
+},
+{
+  "Symbol": "ORCL",
+  "Company": "Oracle",
+  "industry":"Software—Infrastructure"
+},
+{
+  "Symbol": "ABBV",
+  "Company": "AbbVie",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "TMO",
+  "Company": "Thermo Fisher Scientific",
+  "industry": "Diagnostics & Research"
+},
+{
+  "Symbol": "CVX",
+  "Company": "Chevron",
+  "industry": "Oil & Gas Integrated"
+},
+{
+  "Symbol": "TMUS",
+  "Company": "T-Mobile US",
+  "industry": "Telecom Services"
+},
+{
+  "Symbol": "NKE",
+  "Company": "Nike",
+  "industry": "Footwear & Accessories"
+},
+{
+  "Symbol": "ASML",
+  "Company": "ASML",
+  "industry": "Semiconductor Equipment & Materials"
+},
+{
+  "Symbol": "MCD",
+  "Company": "McDonald's",
+  "industry": "Restaurants"
+},
+{
+  "Symbol": "COST",
+  "Company": "Costco Wholesale",
+  "industry": "Discount Stores"
+},
+{
+  "Symbol": "ACN",
+  "Company": "Accenture",
+  "industry": "Information Technology Services"
+},
+{
+  "Symbol": "LLY",
+  "Company": "Eli Lilly",
+  "industry": "Drug Manufacturers—General"
+},
+{
+  "Symbol": "DHR",
+  "Company": "Danaher",
+  "industry": "Diagnostics & Research"
+}]
+}
+

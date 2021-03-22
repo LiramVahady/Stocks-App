@@ -6,17 +6,29 @@
 //
 
 import UIKit
-
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+import SwiftUI
+class SceneDelegate: UIResponder, UIWindowSceneDelegate{
 
     var window: UIWindow?
-
-
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        if UserDefaultsManagement.loadUserLoginSuccess(){
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let homeViewController = storyboard.instantiateViewController(withIdentifier: "home") as UIViewController
+            self.window = UIWindow(windowScene: windowScene)
+            self.window?.rootViewController = homeViewController
+            self.window?.makeKeyAndVisible()
+
+            }
+        
+       }
+       
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -48,5 +60,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
-}
 
+    
+
+
+/*
+ let hostingViewController = UIHostingController(rootView: ContentView())
+ let navigationController = UINavigationController(rootViewController: hostingViewController)
+ self.window?.rootViewController = navigationController
+  self.window?.makeKeyAndVisible()
+ */
